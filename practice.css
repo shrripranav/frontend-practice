@@ -1,0 +1,35 @@
+header { 
+    color:rgb(211, 146, 14);
+    background-color:rgb(32, 14, 14);
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.6;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+nav {
+    font-size: 18px;
+}
+h2 {
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 0.8;
+    font-size: 35px;
+}
+h3 {
+    color:black;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 35px;
+}
+main {
+    font-size: 35px;
+}
+footer {
+    text-align: center;
+    font-weight: 900;
+    font-size: 12px;
+    color: midnightblue;
+}
