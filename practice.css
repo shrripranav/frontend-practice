@@ -71,3 +71,23 @@ h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 4px ;
 }
+p {
+    font-style: italic;
+}
+h3 {
+    color: rgb(0, 245, 255);
+}
+.card {
+    background-color: rgb(38, 52, 73);
+    padding: 20px;
+    width: 200px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
