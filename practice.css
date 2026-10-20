@@ -10,7 +10,9 @@ body {
     background-color: rgb(8, 11, 18);
 }
 nav {
-    font-size: 18px;
+    font-size: 30px;
+    color: rgb(143, 223, 137);
+    font-style: italic;
 }
 h2 {
     color:rgb(255, 46, 136);
@@ -23,6 +25,13 @@ h3 {
     color:rgb(234, 242, 255);
     font-weight: 200;
     font-style: italic;
+    font-size: 35px;
+}
+h4 {
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 0.8;
     font-size: 35px;
 }
 main {
@@ -125,14 +134,26 @@ button {
 
 button {
     display: block;
-    align-items: center;
-    background-color: rgb(255, 46, 136);
+    background-color: rgb(10, 198, 132);
+    color: black;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: rgb(0, 245, 255);
     color: black;
 }
 
 ::placeholder{
     font-family: 'Times New Roman', Times, serif;
 }
+
+#greeting {
+    color: rgb(241, 245, 250);
+    font-size: 24px;
+}
+
 @media (max-width: 600px) {
     .container {
         flex-direction: column;
