@@ -14,6 +14,12 @@ nav {
     color: rgb(143, 223, 137);
     font-style: italic;
 }
+nav ul li a {
+    color:rgb(143, 223, 137) ;
+}
+nav ul li a:hover {
+    color:rgb(0, 245, 255) ;
+}
 h2 {
     color:rgb(255, 46, 136);
     font-weight: bold;
@@ -111,12 +117,15 @@ label {
 input, textarea {
     width: 50%;
     padding: 10px;
-    height: 100px;
     margin: 8px 0 16px 0;
     border: 2px solid rgb(38, 52, 73);
     border-radius: 8px;
     font-size: 18px;
     box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
 }
 
 input:focus, textarea:focus {
@@ -153,7 +162,13 @@ button:hover {
     color: rgb(241, 245, 250);
     font-size: 24px;
 }
-
+#welcome-message {
+    color: rgb(241, 245, 250);
+    font-size: 24px;
+}
+#greet-button {
+    margin-bottom: 30px;
+}
 @media (max-width: 600px) {
     .container {
         flex-direction: column;
